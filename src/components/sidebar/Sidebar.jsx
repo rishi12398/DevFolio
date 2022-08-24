@@ -3,6 +3,7 @@ import "./sidebar.css"
 import Logo from "../../assets/logo.svg"
 const Sidebar = () => {
   return (
+    <>
     <aside className='aside'>
         <a href="#home" className="nav__logo">
             <img src={Logo} alt=""/>
@@ -31,9 +32,9 @@ const Sidebar = () => {
                         <i className="icon-graduation"></i>
                         </a>
                     </li>
+                    {/* Work ---> Portfolio */}
                     <li className="nav__item">
-                        <a href="#portfolio" className="nav__link">
-                        <i className="icon-layers"></i>
+                        <a href="#work" className="nav__link">                         <i className="icon-layers"></i>
                         </a>
                     </li>
                     <li className="nav__item">
@@ -56,6 +57,11 @@ const Sidebar = () => {
             <span className="copyright">&copy; 2022 -2023.</span>
         </div>
     </aside>
+
+    <div className="nav__toggle">
+        <i className="icon-menu"></i>
+    </div>
+    </>
   )
 }
 
