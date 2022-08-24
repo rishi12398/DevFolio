@@ -3,6 +3,12 @@
 }
 
 
+@media screen and (max-width: 1024px) {
+  .main {
+    margin-left: 0;
+  }
+}
+
 /* .App {
   text-align: center;
 }
