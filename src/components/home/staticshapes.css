@@ -1,0 +1,66 @@
+.static_shapes {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.shape {
+    position: absolute;
+}
+
+.s1 {
+    left: 2%;
+    top: 10%;
+}
+
+.s2 {
+    left: 18%;
+    top: 30%;
+}
+
+.s3 {
+    left: 5%;
+    top: 30%;
+}
+
+.s4 {
+    left: 2%;
+    top: 10%;
+}
+
+.s5 {
+    left: 44%;
+    top: 10%;
+}
+
+.s6 {
+    left: 36%;
+    top: 10%;
+}
+
+.s7 {
+    left: 20%;
+    top: 25%;
+}
+
+.s8 {
+    left: 24%;
+    top: 20%;
+}
+
+.s9 {
+    left: 2%;
+    top: 10%;
+}
+
+.s10 {
+    left: 45%;
+    top: 11%;
+}
+
+.s11 {
+    left: 10%;
+    top: 2%;
+}
