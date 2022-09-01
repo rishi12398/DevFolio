@@ -52,7 +52,9 @@
     margin: 0.5rem 0;
 }
 
-
+.timeline__text::before {
+    content:"‣";
+}
 @media screen and (max-width: 1024px) {
     .resume__container {
         grid-template-columns: 450px;

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./App.css"
 
 import Sidebar from './components/sidebar/Sidebar'
@@ -12,6 +12,11 @@ import Blog from './components/blog/Blog'
 import Contact from './components/contact/Contact'
 
 const App = () => {
+  const [theme, setTheme] = useState("light");
+  const themeToggler = () => {
+    theme === "light" ? setTheme("dark") : setTheme("light")
+  }
+  
   return (
     <>
       <Sidebar />
@@ -21,7 +26,7 @@ const App = () => {
         <Services />
         <Resume />
         <Portfolio />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Blog />
         <Contact />
       </main>

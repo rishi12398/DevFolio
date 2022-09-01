@@ -11,8 +11,9 @@
     text-align: center;
 }
 
-.home__image {
+.home__img {
     margin-bottom: 1.5rem;
+    width: 150px;
 }
 
 .home__name {

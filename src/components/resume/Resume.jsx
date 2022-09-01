@@ -6,7 +6,7 @@ import Card from './Card'
 const Resume = () => {
   return (
     <section className="resume container section" id="resume">
-      <h2 className="section__title">Experience</h2>
+      <h2 className="section__title">Experience and Education</h2>
       <div className="resume__container grid">
         
         <div className="timeline grid">
@@ -19,6 +19,8 @@ const Resume = () => {
                   title={val.title}
                   year={val.year}
                   desc={val.desc}
+                  desc2={val.desc2}
+                  desc3={val.desc3}
                 /> 
               )
             }
@@ -35,6 +37,8 @@ const Resume = () => {
                   title={val.title}
                   year={val.year}
                   desc={val.desc}
+                  desc2={val.desc2}
+                  desc3={val.desc3}
                 /> 
               )
             }
