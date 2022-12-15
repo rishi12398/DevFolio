@@ -13,13 +13,9 @@
 }
 
 .work__item:hover {
-    color: pointer;
+    color: var(--first-color);
     font-weight: var(--font-bold);
     transition: .3s;
-}
-
-.work__item:hover {
-    color: var(--first-color);
 }
 
 .work__container {
@@ -35,7 +31,7 @@
 }
 
 .work__mask {
-    background: #6c6ce5;
+    background: #8686c9;
     position: absolute;
     left: 0;
     top: 0;
@@ -46,7 +42,7 @@
 }
 
 .work__card:hover .work__mask {
-    opacity: 0.9;
+    opacity: 0.4;
 }
 
 .work__category {

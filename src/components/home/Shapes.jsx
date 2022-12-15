@@ -4,7 +4,7 @@ import "./shapes.css"
 const Shapes = () => {
   return (
     <div className="shapes">
-        <ul class='circles'>
+        <ul className='circles'>
             <li></li>
             <li></li>
             <li></li>

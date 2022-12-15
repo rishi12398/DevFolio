@@ -1,5 +1,5 @@
-import Image1 from "../../assets/avatar-1.svg"
-import Image3 from "../../assets/avatar-3.svg"
+import Image1 from "../../assets/man.png"
+import Image3 from "../../assets/man.png"
 
 const Comments = [
     {

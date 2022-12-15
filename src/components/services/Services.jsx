@@ -7,6 +7,8 @@ import Chip from '@mui/material/Chip';
 import Stack from '@mui/material/Stack';
 import FaceIcon from '@mui/icons-material/Face';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+
+
 const theme = createTheme({
   palette: {
     type: 'light',
@@ -70,7 +72,7 @@ const Services = () => {
           </ThemeProvider>
         </div>
 
-        <div className="services__card" key="1">
+        <div className="services__card" key="2">
           <img src={Interests} alt="" className="services__img" />
           <h4 className="services__title">Areas Of Interest</h4>
           <ThemeProvider theme={theme}>
@@ -91,7 +93,7 @@ const Services = () => {
           </ThemeProvider>
         </div>
 
-        <div className="services__card" key="1">
+        <div className="services__card" key="3">
           <img src={Tools} alt="" className="services__img" />
           <h4 className="services__title">DevOps and Tools</h4>
           <ThemeProvider theme={theme}>
